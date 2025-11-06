@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranav & Anuradha – Wedding Invitation</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div id="loader">
+    <img src="assets/loader-mandala.gif" alt="Loading...">
+</div>
+
+<!-- ================= MUSIC BUTTON ================= -->
+<div id="music-control">
+    <img src="assets/music-icon.png" id="music-icon" onclick="toggleMusic()">
+</div>
+
+<audio id="bg-music" loop>
+    <source src="assets/aaj-sajeya.mp3" type="audio/mpeg">
+</audio>
+
+<!-- ================= HERO SECTION ================= -->
+<section id="hero">
+    <div class="overlay"></div>
+    <h1 class="title">Pranav <span>&</span> Anuradha</h1>
+    <p class="tagline">Are getting married</p>
+    <p class="date">27 • 11 • 2025</p>
+
+    <a href="#events" class="scroll-btn">Scroll to View Events ↓</a>
+</section>
+
+
+<!-- ================= COUNTDOWN ================= -->
+<section id="countdown">
+    <h2>Wedding Countdown</h2>
+    <div id="timer">
+        <div><span id="days"></span><small>Days</small></div>
+        <div><span id="hours"></span><small>Hours</small></div>
+        <div><span id="minutes"></span><small>Minutes</small></div>
+        <div><span id="seconds"></span><small>Seconds</small></div>
+    </div>
+</section>
+
+
+<!-- ================= EVENTS SECTION ================= -->
+<section id="events">
+
+    <h2 class="section-title">Wedding Events</h2>
+
+    <!-- Haldi & Sangeet -->
+    <div class="event-box">
+        <h3>Haldi & Sangeet Ceremony</h3>
+        <p class="event-date">26th November 2025</p>
+        <p class="note">(No venue mentioned)</p>
+    </div>
+
+    <!-- Wedding -->
+    <div class="event-box">
+        <h3>Wedding Ceremony</h3>
+        <p class="event-date">27th November 2025</p>
+        <p class="event-venue">The Victorian Palace, GT Karnal Road, Delhi</p>
+    </div>
+
+    <!-- Reception -->
+    <div class="event-box">
+        <h3>Reception Celebration</h3>
+        <p class="event-date">8th December 2025</p>
+        <p class="event-venue">Choudhary Greens, Rangbhoomi Chowk, Purnea</p>
+    </div>
+
+</section>
+
+
+<!-- ================= PARENTS SECTION ================= -->
+<section id="parents">
+    <h2>With Blessings of</h2>
+    <p class="parents-text">Shri Yogendra Nath Jha & Smt. Praneeta Jha</p>
+</section>
+
+
+<!-- ================= RSVP ================= -->
+<section id="rsvp">
+    <h2>RSVP</h2>
+    <p>Jha Family</p>
+    <a href="https://wa.me/918892648794" class="rsvp-btn">Send Message on WhatsApp</a>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>We await your presence and blessings ✨</p>
+</footer>
+
+
+<!-- JS FILE -->
+<script src="script.js"></script>
+
+</body>
+</html>
